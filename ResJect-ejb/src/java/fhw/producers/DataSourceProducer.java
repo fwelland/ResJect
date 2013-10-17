@@ -10,18 +10,10 @@ import javax.enterprise.inject.Produces;
 @Default
 public class DataSourceProducer
 {
-
-//    @Resource(lookup = "Memeber")
-//    private DataSource userDS;
-    
-//    @Resource(lookup = "jdbc/Memeber")
-//    private DataSource userDS;    
     
     @Resource(lookup = "Member")
     private DataSource userDS;        
     
-//    @Resource(lookup = "jdbc/AssetListing")
-//    private DataSource listingsDS;
 
     public DataSourceProducer()
     {
