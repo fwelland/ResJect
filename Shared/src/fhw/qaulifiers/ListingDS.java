@@ -10,6 +10,6 @@ import java.lang.annotation.Retention;
 @Qualifier
 @Retention(RUNTIME)
 @Target({METHOD, FIELD, PARAMETER, TYPE})
-public @interface UserDatabase {
+public @interface ListingDS {
     
 }
