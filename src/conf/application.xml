@@ -2,6 +2,9 @@
 <application version="6" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/application_6.xsd">
   <display-name>ResJect</display-name>
   <module>
+    <java>Shared.jar</java>
+  </module>
+  <module>
     <web>
       <web-uri>ResJect-war.war</web-uri>
       <context-root>/ResJect-war</context-root>
